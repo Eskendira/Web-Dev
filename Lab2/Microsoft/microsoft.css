@@ -68,6 +68,7 @@ body
     width: 100%;
 }
 .first-item {
+<<<<<<< HEAD
     height: 530px; /* Установим высоту в 485px, как на сайте Microsoft */
     overflow: hidden; /* Чтобы изображение не выходило за пределы блока */
 }
@@ -76,6 +77,15 @@ body
     width: 100%; /* Это сделает изображение растянутым на всю ширину */
     height: 600px; /* Это обеспечит сохранение пропорций изображения */
     object-fit: cover;
+=======
+    height: 485px; 
+    overflow: hidden; 
+}
+.img1 {
+    width: 100%; 
+    height: 600px; 
+    
+>>>>>>> 300d199 (!)
 }
 .learn-more
 {
